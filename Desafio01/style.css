@@ -120,17 +120,25 @@
     }
 }
 
+
+
+
+
 @media screen and (orientation: landscape){
     *{
         text-align: center;
     }
+
     header{
+        display: inline-block;
         background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));;
         width: 350px;
-        height: 450px;
-        margin-left: 10vw;
-        margin-top: 20vh;
+        height: 452px;
         border-radius: 20px;
+        position: absolute;
+        top: 22.4%;
+        left: 15%;
+        z-index: 1;
     }
     #yourResult{
         color: darkgrey;
@@ -175,16 +183,23 @@
         width: 300px;
     }
     main h2{
+        text-align: left;
         padding-top: 15px;
         padding-left: 20px;
+        font-size: 1.3em;
     }
     main{
-        background-color: black;
-        width: 600px;
+        background-color: rgb(255, 254, 254);
+        width: 450px;
+        height: 450px;
+        display: inline-block;
         position: absolute;
         top: 50%;
-        left: 50%;
+        left: 55%;
         transform: translate(-50%, -50%);
+        padding-left: 30px;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.149);
+        border-radius: 0px 20px 20px 0px;
     }
     main div{
         width: 25vw;
@@ -193,6 +208,7 @@
         background-color: rgb(212, 164, 164);
         margin: auto;
         margin: 15px;
+
         border-radius: 10px;
     }
     span{
@@ -232,14 +248,14 @@
     }
     button{
         display: block;
-        width: 90vw;
+        width: 28vw;
         height: 60px;
-        margin: auto;
         margin-top: 30px;
         border-radius: 20px;
         border: 0;
         background-color: hsl(224, 30%, 27%);
         color: white;
         font-size: 1.5em;
+        margin-left: 10px;
     }
 }
