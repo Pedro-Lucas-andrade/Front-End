@@ -5,4 +5,9 @@
 
   Dismiss message*/
 
-  
+  function sucesso(){
+    let email = (document.getElementById('email').value);
+    if (email.length == 0){
+      alert('Email inválido!!')
+    }
+  }
