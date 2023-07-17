@@ -7,6 +7,10 @@
 
   function sucesso(){
     let email = (document.getElementById('email').value);
+
+    let lista = document.getElementsByClassName('list').value;
+    lista.style.display = 'none';
+
     if (email.length == 0){
       alert('Email inválido!!')
     }

@@ -17,72 +17,82 @@
 html, body{
     height: 100vh;
 }
-img{
-    width: 100vw;
-}
-h1{
-    font-family: roboto-bold;
-    font-size: 2em;
-    margin-top: 20px;
-    margin-left: 0px;
-}
-.list{
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    background-color: rgb(138, 139, 52);
-    background-image: url('assets/images/icon-list.svg');
-    background-size: cover;
-    margin-left: 20px;
-    margin-right: 10px;
+
+@media screen and (orientation: portrait){
+    
+    img{
+        width: 100vw;
+    }
+    h1{
+        font-family: roboto-bold;
+        font-size: 2em;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .list{
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background-color: rgb(138, 139, 52);
+        background-image: url('assets/images/icon-list.svg');
+        background-size: cover;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    main p{
+        margin: auto;
+        margin-top: 20px;
+        font-size: 5vw;
+    }
+
+    main{
+        font-size: 5vw;
+        margin-left: 20px;
+    }
+    .list{
+        margin-left: 0px;
+    }
+
+
+    label{
+        margin-left: 20px;
+        font-size: 3vw;
+    }
+
+    #email{
+        margin-left: 20px;
+        margin-top: 5px;
+        width: 90vw;
+        height: 7vw;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+        padding-left: 10px;
+    }
+
+    #button{
+        font-size: 4vw;
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 90vw;
+        height: 10vw;
+        background-color:  hsl(234, 29%, 20%);
+        border: none;
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+
+    #button:hover{
+        background-color: rgba(77, 98, 117, 0.836);
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37);
+    }
 }
 
-main p{
-    margin: auto;
-    margin-top: 20px;
-    font-size: 5vw;
-}
-
-main{
-    font-size: 5vw;
-    margin-left: 20px;
-}
-.list{
-    margin-left: 0px;
-}
-
-
-label{
-    margin-left: 20px;
-    font-size: 3vw;
-}
-
-#email{
-    margin-left: 20px;
-    margin-top: 5px;
-    width: 90vw;
-    height: 7vw;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
-    padding-left: 10px;
-}
-
-#button{
-    font-size: 4vw;
-    margin-left: 20px;
-    margin-top: 20px;
-    width: 90vw;
-    height: 10vw;
-    background-color:  hsl(234, 29%, 20%);
-    border: none;
-    color: white;
-    border-radius: 10px;
-    margin-bottom: 5px;
-}
-
-#button:hover{
-    background-color: rgba(77, 98, 117, 0.836);
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37);
+@media  screen and (oritation: landscape){
+    #text, #img{
+        display: inline-block;
+    }
 }
