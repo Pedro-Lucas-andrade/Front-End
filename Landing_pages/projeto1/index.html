@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="estilo/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="estilo/mobile.css">
 </head>
 
 <body>
@@ -17,8 +18,14 @@
         Creativo
         </h1>  
      </div>
-     
-     <nav>
+
+     <div id="menu" onclick="abrirmenu()">
+        <p></p>
+        <p></p>
+        <p></p>
+     </div>
+
+     <nav id="nav">
        <a href="#">Inicio</a>  
        <a href="#">Serviços</a> 
        <a href="#">Sobre</a> 
@@ -43,7 +50,7 @@
       <form>
          <input type="text" id="name" placeholder="name"/>
          <input type="Email" id="email" placeholder="email"/> <br>
-         <input type="submit" value="Enviar》" />
+         <input id="button" type="submit" value="Enviar》" />
          
          
       </form>
@@ -57,6 +64,15 @@
     </article>
     
   </main>
+
+  <script>
+     function abrirmenu(){
+      let nav = document.getElementById('nav');
+      nav.style.display = 'flex';
+      nav.style.flexDirection = 'column';
+      
+     }
+  </script>
   
 </body>
 
