@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?família=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+
+aside#container-left{
+    background-image:linear-gradient(to bottom, hsl(261, 86%, 62%),hsl(241, 82%, 65%));
+    color:white;
+}
+
+#yourResult{
+    color: hsl(224, 30%, 27%);
+}
+
+aside > div#circle > p#n100{
+    color:hsl(224, 30%, 27%);
+}
+
+div#circle{
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0)
+    );
+}
+
+article#container-rigth{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.summary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#reaction{
+    background-color: rgba(255, 0, 0, 0.126);
+}
+
+#memory{
+    background-color: rgba(255, 255, 0, 0.075);
+}
+
+#verbal{
+    background-color: rgba(0, 128, 0, 0.09);
+}
+
+#visual{
+    background-color: rgba(0, 0, 255, 0.112);
+}
+
+#red{
+    color: red;
+}
+
+#yellow{
+    color: yellow;
+}
+
+#green{
+    color: green;
+}
+
+#blue{
+    color: blue;
+}
+
+button{
+    background-color: hsl(224, 30%, 27%)
+    ;
+    color:white;
+}

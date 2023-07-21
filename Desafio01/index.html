@@ -5,39 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/mobile.css" media="screen">
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <p id="yourResult">Your Result</p>
-        <div id="result">
-            <p id="n76">76</p>
-            <p id="n100">of 100</p>
-        </div>
-        <h2>Great</h2>
-        <p id="text">You scored higter than 65% of the people who have taken these tests</p>
-    </header>
-    <main>
-        <h2>Summary</h2>
+    <main id="container-principal">
+        <aside id="container-left">
+            <p id="yourResult">Your Result</p>
+            <div id="circle">
+                <p id="n76">76</p>
+                <p id="n100">of 100</p>
+            </div>
+            <h2>Great</h2>
+            <p id="text">You scored higter than 65% of the people who have taken these tests</p>
+        </aside>
 
-        <div class="Summary" id="reaction">
-            <p><img src="images/icon-reaction.svg" alt="icone reaction"> Reaction<span>80 <span class="s100"> / 100</span></span></p> 
-        </div>
+        <article id="container-rigth">
+            <h2>Summary</h2>
+            <div class="Summary" id="reaction">
+                <p id="red">
+                    <img src="images/icon-reaction.svg" alt="icone reaction"> Reaction
+                </p>
 
-        <div class="Summary" id="memory">
-            <p><img src="images/icon-memory.svg" alt="ícone memory"> Memory  <span>92 <SPAN class="s100">/ 100</SPAN></span></p> 
-        </div>
+                <p>
+                    <span>80 </span>
+                    <span class="s100"> / 100</span>
+                </p>
+            </div>
+            <div class="Summary" id="memory">
+                <p id="yellow">
+                    <img src="images/icon-memory.svg" alt="ícone memory"> Memory 
+                </p>
 
-        <div class="Summary" id="verbal">
-            <p><img src="images/icon-verbal.svg" alt="icone verbal"> Verbal <span class="vv">61<span class="s100"> / 100</span></span></p> 
-        </div>
+                <p>
+                    92 <SPAN class="s100">/ 100</SPAN>
+                </p>
+            </div>
+            <div class="Summary" id="verbal">
+                <p id="green">
+                    <img src="images/icon-verbal.svg" alt="icone verbal"> Verbal 
+                </p>
 
-        <div id="visual">
-            <p><img src="images/icon-visual.svg" alt="icone visual"> Visual  <span class="vv">72 <span class="s100">/ 100</span></span></p> 
-        </div>
+                <p>
+                    61 <span class="s100"> / 100</span>
+                </p>
+            </div>
+            <div class="Summary" id="visual">
+                <p id="blue">
+                    <img src="images/icon-visual.svg" alt="icone visual"> Visual  
+                </p>
 
-        <button><p>Continue</p></button>
+                <p>
+                    72 <span class="s100">/ 100</span>
+                </p>
+            </div>
+            <button>Continue</button>
+        </article>
     </main>
 </body>
 </html>
