@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    background-image: linear-gradient(45deg, rgb(119, 228, 119), rgba(82, 224, 82, 0.897));
+    display: flex;
+    align-items: center;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    margin: auto;
+    background-color: rgb(26, 22, 22);
+    border-radius: 30px;
+}
+
+aside h2{
+    color: rgba(128, 233, 128, 0.897);
+    margin-top: 30px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(70, 55, 55);
+    width: 30%;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+article h1{
+    text-align: center;
+    color: rgba(82, 224, 82, 0.897);
+}
+article div{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    color:white;
+}
+
+article input{
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+input#button{
+    border: none;
+    width: 85%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(82, 224, 82, 0.897);
+    color: white;
+}
